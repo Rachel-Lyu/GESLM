@@ -6,3 +6,5 @@ GESLM/data/ contains toy data for testing the codes.
 GESLM/result/ includes GESLM results of toy data.
 
 For function `GESLM(data, alpha, outcome_loc)`, `data` is the input dataframe with header, `alpha` is the threshold variable that should be tuned and predetermined, `outcome_loc` is a vector that points out the column index of the outcome variables.
+
+Tuning example is also provided in GESLM_tuning.R
