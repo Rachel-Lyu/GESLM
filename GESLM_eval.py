@@ -11,14 +11,14 @@ for maf in maflis:
         rec1 = []
         rec2 = []
         for s in inp1:
-            if ('X' not in s and 'Y' not in s and 'Z' not in s and 'W' not in s) and ('A' in s and 'B' in s):
+            if ('X' not in s and 'Y' not in s and 'Z' not in s and 'W' not in s and 'C' not in s) and ('A' in s and 'B' in s):
                 rec1.append(1)
             else:
                 rec1.append(0)
         inp1.close()
         for s in inp2:
             sspl=s.split(',')
-            if ('X' not in s and 'Y' not in s and 'Z' not in s and 'W' not in s) and ('A' in s and 'C' in s):
+            if ('X' not in s and 'Y' not in s and 'Z' not in s and 'W' not in s and 'B' not in s) and ('A' in s and 'C' in s):
                 rec2.append(1)
             else:
                 rec2.append(0)
